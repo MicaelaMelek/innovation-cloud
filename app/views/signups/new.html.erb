@@ -32,11 +32,10 @@
   <div class="container">
     <h2>Stay Connected</h2>
     <p>Receive weekly insights from industry insiders.</p>
-
-
-    <!-- Your code here -->
-
-
+      <%= form_for(@signup) do |f| %>
+         <%= f.text_field :email, placeholder: "Email" %>
+         <%= f.submit "Send" %>
+     <% end %>
   </div>
 </div>
 
