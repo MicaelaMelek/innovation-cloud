@@ -137,6 +137,8 @@ body {
 }
 
 .jumbotron input[type=submit] {
+  background-color: #0066ff;
+  padding: 4px 10px;
   border: none;
   margin: 0
 }
@@ -146,6 +148,7 @@ body {
   width: 210px;
   font-size: 14px;
 }
+
 
 /* Grid */
 
