@@ -1,2 +1,0 @@
-class Singup < ApplicationRecord
-end
